@@ -1,0 +1,27 @@
+{
+    "category": "Modbus",
+    "inputs": 1, 
+    "name": "MODBUS_GET", 
+    "parameters": [
+        {
+            "default": "0", 
+            "type": "raw", 
+            "name": "Register Index", 
+            "value": "0", 
+            "options": [
+                ""
+            ]
+        }
+    ], 
+    "outputs": 1, 
+    "labels": {
+        "input": ["Register Data"], 
+        "output": ["Value"]
+    }, 
+    "schematic_pins": {
+        "inputs": [1], 
+        "outputs": [2]
+    }, 
+    "repository": "https://github.com/nBlocksStudioNodes/nblocks_modbus_get", 
+    "revision": ""
+}
